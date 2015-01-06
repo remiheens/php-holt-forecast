@@ -1,0 +1,23 @@
+{
+    "name": "remiheens/php-holt-forecast",
+    "description": "wrapper PHP for Exponential smoothing (HOLT)",
+    "type": "library",
+    "homepage": "http://github.com/remiheens/php-holt-forecast",
+    "version": "0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Remi Heens",
+            "email": "github@remiheens.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forecast\\": "src/remiheens/Forecast"
+        }
+    }
+}
